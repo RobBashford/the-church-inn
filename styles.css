@@ -2,23 +2,23 @@
 
 /* ---- 01 Typography System
 FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
-
-- Font weights:
-
+18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+- Font weights: 400 / 700
 
 /* ---- 02 Colours
-- Primary: 
+- Primary: #fff #fff9db
 - Tints
 - Shades
 - Accents
-- Greys 
+- Greys #343a40 #212529
 
 /* ---- 03 Images
 /* ---- 04 Icons
 /* ---- 05 Shadows
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.5);
 /* ---- 06 Border Radius
 /* ---- 07 White Space
+
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
 */
