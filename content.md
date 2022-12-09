@@ -45,9 +45,12 @@ The Church Inn
 
 <!-- -Footer -->
 
--- Social Links
--- Address
 -- Logo
+-- Social Links
+
+-- Footer Navigation
+
+-- Address
+
 -- Opening Hours
--- Privacy Policy
--- Cookie Policy
+

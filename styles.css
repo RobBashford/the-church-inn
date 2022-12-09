@@ -10,7 +10,8 @@ FONT SIZE SYSTEM (px)
 - Tints
 - Shades
 - Accents
-- Greys #343a40 #212529
+- Greys HEADINGS: #616870 TEXT: #212529
+BTN: #343a40 BTN:HOVER: #212529
 
 /* ---- 03 Images
 /* ---- 04 Icons
@@ -40,7 +41,8 @@ body {
   letter-spacing: 1px;
   line-height: 1;
   font-weight: 400;
-  color: #343a40;
+  color: #212529;
+  font-size: 1.8rem;
 }
 
 /* TOP BAR */
@@ -54,7 +56,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-padding: 2rem;
+  padding: 2rem;
 }
 
 /* NAVIGATION */
@@ -76,7 +78,7 @@ padding: 2rem;
 }
 
 .logo {
-  width: 100%;
+  height: 100%;
 }
 
 .heading-primary {
@@ -139,7 +141,7 @@ padding: 2rem;
 .hero-text {
   font-weight: 400;
   font-size: 1.8rem;
-  color: #fff9db;
+  color: #fff;
   letter-spacing: 7px;
   text-transform: uppercase;
   background-color: rgba(33, 37, 41, 0.3);
@@ -156,7 +158,6 @@ padding: 2rem;
   display: inline-block;
   padding: 16px 32px;
   text-transform: uppercase;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
   transition: all 0.3s;
 }
@@ -167,7 +168,99 @@ padding: 2rem;
   color: #fff;
 }
 
-.hero-test {
-  color: #343a40;
+/* NEW IN SECTION */
+.now-serving-section {
+  background-color: #e0e0e0;
+  padding: 9.6rem 0;
+}
+
+.serving-logos {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.now-serving-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+/* ABOUT US SECTION */
+.about-us {
+  display: flex;
+}
+
+.about-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4.8rem;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #343a40;
+  padding: 9.6rem 0;
+}
+.container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.4rem;
+}
+
+.footer-heading {
   font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
