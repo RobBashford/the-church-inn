@@ -27,13 +27,6 @@ The Church Inn
 
 (image of busy inside)
 
-<!-- - Opening Hours -->
-
-(image of busy inside)
--- Opening Hours
--- Contact Details
--- Address
-
 <!-- - Pub History -->
 
 (image of old school)
