@@ -6,11 +6,11 @@ FONT SIZE SYSTEM (px)
 - Font weights: 400 / 700
 
 /* ---- 02 Colours
-- Primary: #fff #fff9db 
+- Primary: #fff #1971c2 #74c0fc
 - Tints
 - Shades
 - Accents
-- Greys HEADINGS: #616870 TEXT: #212529
+- Greys HEADINGS: #919aa5 #616870 TEXT: #212529 BACKGROUNDS: #e0e0e0
 BTN: #343a40 BTN:HOVER: #212529
 
 /* ---- 03 Images
@@ -49,7 +49,7 @@ body {
 
 .top-bar {
   height: 2.4rem;
-  background-color: green;
+  background-color: #1971c2;
   text-align: center;
   color: #fff;
   font-size: 1.6rem;
@@ -65,8 +65,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9.6rem;
-  padding: 1.8rem 4.8rem 0 4.8rem;
+  height: 12rem;
+  padding: 0rem 4.8rem 0 4.8rem;
 }
 
 .logo-nav {
@@ -78,10 +78,11 @@ body {
 }
 
 .logo {
-  height: 100%;
+  height: 7.5rem;
+  filter: invert();
 }
 
-.heading-primary {
+.heading-logo {
   color: #fff;
   font-family: "Cinzel", serif;
   font-size: 1rem;
@@ -109,7 +110,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #fff9db;
+  color: #74c0fc;
   border-bottom: 1px solid currentColor;
 }
 
@@ -153,7 +154,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   background-color: #343a40;
-  color: #fff9db;
+  color: #74c0fc;
   text-decoration: none;
   display: inline-block;
   padding: 16px 32px;
@@ -164,7 +165,7 @@ body {
 
 .btn:hover,
 .btn:active {
-  background-color: #212529;
+  background-color: #1971c2;
   color: #fff;
 }
 
@@ -220,7 +221,8 @@ body {
 .footer-logo {
   display: block;
   margin-bottom: 3.2rem;
-  filter: grayscale();
+  height: 7.5rem;
+  filter: invert();
 }
 
 .social-links {
@@ -250,7 +252,7 @@ body {
   gap: 2.4rem;
 }
 
-.address{
+.address {
   color: #fff;
   font-size: 1.6rem;
   margin-bottom: 2.4rem;
@@ -269,13 +271,13 @@ body {
   text-decoration: none;
   font-style: normal;
   font-size: 1.6rem;
-  color: #fff ;
+  color: #fff;
   transition: all 0.3s;
 }
 
 .footer-link:hover,
 .footer-link:active {
-  color: #fff9db ;
+  color: #74c0fc;
 }
 
 .footer-opening {
