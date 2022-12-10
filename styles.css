@@ -178,7 +178,8 @@ body {
 .serving-logos {
   display: flex;
   align-items: center;
-  gap: 2.4rem;
+  justify-content: center;
+  gap: 4.8rem;
 }
 
 .now-serving-container {
@@ -187,6 +188,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
+}
+.serving-logo {
+  height: 18rem;
 }
 /* ABOUT US SECTION */
 .about-us {
