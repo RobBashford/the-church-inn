@@ -46,7 +46,6 @@ body {
 }
 
 /* TOP BAR */
-
 .top-bar {
   height: 2.4rem;
   background-color: #1971c2;
@@ -146,17 +145,34 @@ body {
   color: #fff;
 }
 
-.section-hero--2 {
+.section-hero--about {
   height: 50vh;
-  position: relative;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.9),
       rgba(34, 34, 34, 0.3),
       rgba(34, 34, 34, 0.7)
     ),
     url(/imgs/MSW71433.jpg);
-  background-size: cover;
-  color: #fff;
+}
+
+.section-hero--location {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.9),
+      rgba(34, 34, 34, 0.3),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url(/imgs/320532010_516217713802710_2923801977432859703_n.jpeg);
+}
+
+.section-hero--events {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.9),
+      rgba(34, 34, 34, 0.3),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url(/imgs/84387409_1052193598471665_285178411045879808_n.jpeg);
 }
 
 .header-container {
