@@ -23,7 +23,7 @@ The Church Inn
 -- Contact details (phone number and email)
 -- Opening hours
 
-<!-- - Whats on -->
+<!-- - events -->
 
 (image of busy inside)
 
@@ -53,4 +53,3 @@ The Church Inn
 -- Address
 
 -- Opening Hours
-

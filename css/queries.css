@@ -66,6 +66,9 @@
   .footer-heading {
     font-size: 3.2rem;
   }
+  .events-img {
+    width: 75%;
+  }
 }
 
 /* 544 */
@@ -79,5 +82,8 @@
   }
   .footer-heading {
     font-size: 3.2rem;
+  }
+  .events-img {
+    width: 75%;
   }
 }
