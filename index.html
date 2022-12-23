@@ -45,16 +45,22 @@
                     </ul>
                 </nav>
                 <!-- MOBILE NAVIGATION -->
-                <button class="btn-mobile-nav">
-                    <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-                    <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-                </button>
+                <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/index.html">Home</a></li>
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/pages/about-us.html">About</a></li>
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/pages/location.html">Location</a></li>
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/pages/events.html">Events</a></li>
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/pages/now-serving.html">Now
+                                serving</a></li>
+                        <li><a class="main-nav-link main-nav-link--mobile" href="/pages/contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
             </header>
-            <!-- HEADER TEXT -->
-            <div class="header-container">
-                <p class="hero-text">The Church Inn top mossley freehouse family friendly pub</p>
-                <a href="#" class="btn">Find us</a>
-            </div>
         </section>
 
         <!-- EVENTS SECTION -->
@@ -160,6 +166,7 @@
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
