@@ -185,6 +185,16 @@ body {
     url(/imgs/84387409_1052193598471665_285178411045879808_n.jpeg);
 }
 
+.section-hero--now-serving {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.9),
+      rgba(34, 34, 34, 0.3),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url(/imgs/84387409_1052193598471665_285178411045879808_n.jpeg);
+}
+
 .header-container {
   width: 100%;
   height: 50%;
