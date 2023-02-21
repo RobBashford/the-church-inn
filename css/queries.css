@@ -25,11 +25,14 @@
     gap: 3.2rem;
   }
   .about-us {
+    flex-direction: column;
+  }
+  .about-us-2 {
     flex-direction: column-reverse;
   }
   .about-us-img {
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
   }
   .about-us-img-div {
     text-align: center;
