@@ -25,7 +25,7 @@
     gap: 3.2rem;
   }
   .about-us {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .about-us-2 {
     flex-direction: column-reverse;
