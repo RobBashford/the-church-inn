@@ -229,7 +229,7 @@ body {
       rgba(34, 34, 34, 0.3),
       rgba(34, 34, 34, 0.7)
     ),
-    url(/imgs/84387409_1052193598471665_285178411045879808_n.jpeg);
+    url(/imgs/contact-us-main-2.jpg);
 }
 
 .section-hero--now-serving {
@@ -239,7 +239,7 @@ body {
       rgba(34, 34, 34, 0.3),
       rgba(34, 34, 34, 0.7)
     ),
-    url(/imgs/84387409_1052193598471665_285178411045879808_n.jpeg);
+    url(/imgs/now-serving-main.jpg);
 }
 
 .header-container {
@@ -346,12 +346,13 @@ body {
 .about-us {
   display: flex;
   justify-content: space-around;
+  gap: 10rem;
 }
 
 .about-us-text {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
   gap: 4.8rem;
 }
