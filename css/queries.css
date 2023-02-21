@@ -112,10 +112,6 @@
   .contact-form {
     padding: 0 2rem;
   }
-}
-
-/* 375 */
-@media (max-width: 34em) {
   .heading-secondary {
     font-size: 3rem;
   }
